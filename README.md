@@ -1,30 +1,94 @@
-# React + TypeScript + Vite
+# Pizzeria App (CRUD) - Client
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a CRUD application built with React.js and Node.js. It allows users to perform CRUD (Create, Read, Update, Delete) operations on a collection of pizzas. The system consists of a frontend developed with React.js for the user interface and a backend implemented with Node.js for handling data storage and retrieval. The API has been implemented with GraphQL
 
-Currently, two official plugins are available:
+# Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<ul>
+  <li>View a list of pizzas</li>
+  <li>Add a new pizza to the collection</li>
+  <li>Update existing pizza details</li>
+  <li>Delete a pizza from the collection</li>
+</ul>
 
-## Expanding the ESLint configuration
+# Prerequisites
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Before running this application, make sure you have the following software installed:
 
-- Configure the top-level `parserOptions` property like this:
+<ol>
+  <li>Node.js</li>
+  <li>npm (Node Package Manager): This comes bundled with Node.js installation</li>
+</ol>
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+# Getting Started
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Follow these steps to get the pizzeria application up and running on your local machine.
+
+Clone the repository:
+
+<ol>
+  <li>git clone https://github.com/AteeqRana7/pizzeria-graphql-client/tree/master</li>
+</ol>
+
+Navigate to the project directory:
+
+<ol>
+  <li>cd pizzeria-graphql-client</li>
+</ol>
+
+Install the dependencies for the frontend:
+
+<ol>
+  <li>npm install</li>
+</ol>
+
+Start the development server for the frontend:
+
+<ol>
+  <li>npm run dev</li>
+</ol>
+
+Access the application:
+<p>
+Open your browser and visit http://localhost:5173 to access the application.
+</p>
+
+# Technologies Used
+
+The pizzeria application is built using the following technologies:
+
+Frontend:
+
+<ul>
+  <li>React.js: JavaScript library for building user interfaces</li>
+  <li>React Router: Declarative routing for React applications</li>
+  <li>Apollo Client: GraphQL client for making API requests</li>
+</ul>
+
+Backend:
+
+<ul>
+  <li>Node.js: JavaScript runtime for server-side development</li>
+  <li>GraphQL: Server for making API requests</li>
+</ul>
+
+# Contributing
+
+Contributions to the pizzeria application are always welcome. If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
+
+# License
+
+This project is licensed under the MIT License.
+
+# Acknowledgments
+
+The pizzeria application is inspired by various CRUD examples available in the React.js and Node.js communities.
+Special thanks to the open-source contributors whose libraries and frameworks are used in this project.
+
+# Contact
+
+For any inquiries or questions, feel free to contact the project maintainer:
+
+Name: Ateeq Rana
+Email: ateeq.rana98@gmail.com
+GitHub: @AteeqRana7
