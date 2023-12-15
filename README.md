@@ -27,7 +27,7 @@ Follow these steps to get the pizzeria application up and running on your local 
 Clone the repository:
 
 <ol>
-  <li>git clone https://github.com/AteeqRana7/pizzeria-graphql-client/tree/master</li>
+  <li>git clone https://github.com/AteeqRana7/pizzeria-graphql-client/tree/main</li>
 </ol>
 
 Navigate to the project directory:
